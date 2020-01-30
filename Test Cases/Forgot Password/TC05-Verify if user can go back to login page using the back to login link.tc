@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05-Verify if user can go back to login page using the back to login link</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>65bdfb48-d4e9-465e-bcb4-aeaf156c1be8</testCaseGuid>
+</TestCaseEntity>
