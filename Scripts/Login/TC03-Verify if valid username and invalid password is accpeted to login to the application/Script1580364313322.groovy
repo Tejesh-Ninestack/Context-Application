@@ -15,3 +15,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser(GlobalVariable.site_url)
+
+WebUI.maximizeWindow()
+
+WebUI.setText(findTestObject('Login/username_textbox'), GlobalVariable.username)
+
+WebUI.setText(findTestObject('Login/password_textbox'), password)
+
+WebUI.click(findTestObject('Login/signin_button'))
+
+WebUI.verifyTextPresent(invalid_login_text, true)
+
+WebUI.closeBrowser()
+

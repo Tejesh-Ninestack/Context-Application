@@ -19,13 +19,13 @@ WebUI.openBrowser(GlobalVariable.site_url)
 
 WebUI.maximizeWindow()
 
-not_run: WebUI.setText(findTestObject('Login/username_textbox'), GlobalVariable.username)
+WebUI.setText(findTestObject('Login/username_textbox'), GlobalVariable.username)
 
-not_run: WebUI.setText(findTestObject('Login/password_textbox'), GlobalVariable.password)
+WebUI.setText(findTestObject('Login/password_textbox'), GlobalVariable.password)
 
-not_run: WebUI.click(findTestObject('Login/signin_button'))
+WebUI.click(findTestObject('Login/signin_button'))
 
-not_run: WebUI.verifyTextPresent(dashboard_text, true)
+WebUI.verifyTextPresent(dashboard_text, true)
 
-not_run: WebUI.closeBrowser()
+WebUI.closeBrowser()
 

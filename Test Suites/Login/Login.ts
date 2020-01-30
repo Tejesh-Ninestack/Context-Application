@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>c6cad12e-8c0a-40cf-a521-c82d69dc42f9</testSuiteGuid>
+   <testCaseLink>
+      <guid>ff453f35-a162-43e4-86b7-c05d839f7991</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/TC01-Verify if valid username and password is accpeted to login to the application</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6d758ca1-6de6-4833-a6d3-4d33d8f2413f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>efc5a0ce-fb8f-4270-8aa8-413000d9e558</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/TC02-Verify if invalid username and password is accpeted to login to the application</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>49bba4c0-31d5-4c1b-9cbc-a787faddf9f3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a8285993-bfc9-49dd-b5f3-12c7d4b23daf</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>83d76347-aed2-4352-bdab-19094cf53e8b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/TC03-Verify if valid username and invalid password is accpeted to login to the application</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2a06a439-4c9f-4293-a2bb-ad3ba846dbb9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a3c2d443-59b4-40f7-9695-346565c844b8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>98b0bd32-2783-4299-ab52-59b2e5711b1b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/TC04-Verify if invalid username and valid password is accpeted to login to the application</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ce55c14f-aa27-4ba0-b896-9785cfe5e4ab</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a536b773-d15d-43dd-8359-9cfdc2d46d75</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>35230bb1-576e-449c-9cd0-f3591a62776a</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
